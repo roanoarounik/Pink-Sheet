@@ -16,3 +16,11 @@ body {
     grid-gap: 10px;
     padding: 8px;
 }
+
+.mediumBox {
+    min-height: 250px;
+}
+
+.cLogo {
+    min-height: 115px;
+}
