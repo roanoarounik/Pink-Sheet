@@ -32,3 +32,16 @@ nav {
     justify-content: space-between;
     grid-template-columns: repeat(4, 1fr);
 }
+
+section {
+    display: grid;
+    grid-template-columns: 55% 1fr;
+    gap: 30px;
+    min-height: 500px;
+}
+
+aside {
+    display: grid;
+    grid-template-rows: 40% 1fr;
+    gap: 30px;
+}
