@@ -24,3 +24,11 @@ body {
 .cLogo {
     min-height: 115px;
 }
+
+nav {
+    gap: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, 1fr);
+}
