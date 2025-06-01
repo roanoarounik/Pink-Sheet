@@ -45,3 +45,15 @@ aside {
     grid-template-rows: 40% 1fr;
     gap: 30px;
 }
+
+@media (max-width: 610px) {
+    nav {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 450px) {
+    section {
+        grid-template-columns: 1fr;
+    }
+}
